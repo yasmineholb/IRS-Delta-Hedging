@@ -136,6 +136,9 @@ class IRSwap_10Y(gym.Env):
         print(f'Step: {self.step_numbers}')
         print(f'PNL: {self.pnl}')
         print(f'deltas: {self.delta} ')
-        open('output.csv','a').write(str(self.current_step) + ',' + str(self.df.loc[self.current_step, '1Y':].values)+ ',' + str(self.pnl) + ',' + str(self.delta) +  '\n')
-
+        sortie = str(self.current_step) + ','
+        for i in range(10):
+            sortie += str(self.delta[i]) + ','
+        sortie += str(self.pnl) + '\n'
+        open('output.csv','a').write(sortie)
 
