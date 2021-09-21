@@ -39,4 +39,5 @@ Initial P&L is set to 0. It is incremented every day by the sum of 2 elements:
 -	Transaction costs due to delta adjustments at the beginning of that day, as induced by our Reinforcement Learning model.
 
 
-
+To build this model, I will work with these Libraries:
+    OpenAi Gym, Numpy, Pandas and Stable Baselines.
