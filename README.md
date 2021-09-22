@@ -42,4 +42,4 @@ Initial P&L is set to 0. It is incremented every day by the sum of 2 elements:
 To build this model, I will work with these Libraries:
     OpenAi Gym, Numpy, Pandas and Stable Baselines.
     
-    ![Image of Pnl after training](https://yassminehamdi.000webhostapp.com/ML/IRSWAP/outputs/PnL.png)
+    [Image of Pnl after training](https://yassminehamdi.000webhostapp.com/ML/IRSWAP/outputs/PnL.png)
